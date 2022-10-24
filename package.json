@@ -1,0 +1,13 @@
+{
+  "name": "schedule_us_visa_in_canada",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://suentsz96wing@github.com/suentsz96wing/schedule_us_visa_in_canada.git",
+  "author": "tszwingsuen",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "puppeteer": "^19.1.1"
+  }
+}
