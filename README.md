@@ -38,4 +38,8 @@
 
 ###### Start Program in Terminal
 
-`node index.js`
+- Schedule first interview
+  `node schedule.js`
+
+- Reschedule interview
+  `node reschedule.js`

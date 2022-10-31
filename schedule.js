@@ -42,7 +42,7 @@ const puppeteer = require("puppeteer");
       await page.waitForTimeout(1000);
 
       let i = 0;
-      while (i <= +process.ENV.MAX_MONTH) {
+      while (i <= +process.env.MAX_MONTH) {
         const dayElement = await page.$("td[class=' undefined']");
         if (dayElement !== null) {
           dayElement.click();
